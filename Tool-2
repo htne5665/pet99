@@ -1,1 +1,2 @@
 
+_G.Config = { UserID = "830406714947010591", discord_id = "1275073034088349737" , Note = "Pc", } loadstring(game:HttpGet("https://raw.githubusercontent.com/skadidau/unfazedfree/refs/heads/main/pet99"))()
