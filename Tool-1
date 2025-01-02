@@ -1,25 +1,26 @@
-script_key="vzAcKPtvJYHOxoZRGVxGTBCDIksOKTnS";
-_G.GPROGRESS_MODE = "Hybrid" -- Hatch
-_G.GGFX_MODE = 1
-_G.GRANK_TO = 99
-_G.GZONE_TO = 299
-_G.GREBIRTH_TO = 99
-_G.GHATCH_SPEED_MS = 0
-_G.GWAIT_AT_GATES_TILL_RANK = 5
-_G.GMAX_EGG_SLOTS = 99
-_G.GMAX_EQUIP_SLOTS = 99
-_G.GHOLD_GIFTS = false
-_G.GHOLD_BUNDLES = true
-_G.GCOLLECT_FREE_ITEMS = true
-_G.GMAX_ZONE_UPGRADE_COST = 20000
-_G.GIGNORE_SLEDRACE = false
-_G.GUSE_SPRINKLERS = true
-_G.GUSE_FLAGS = {"Fortune Flag","Diamonds Flag","Coins Flag"}
-_G.GFRUITS = {"Watermelon","Candycane","Apple","Rainbow","Pineapple","Orange","Banana"}
-_G.GPOTIONS = {"Coins","Lucky","The Cocktail","Huge","Treasure Hunter","Walkspeed","Diamonds","Damage"}
-_G.GPOTIONS_MAX_TIER = 19
-_G.GENCHANTS = {"Diamonds","Criticals","Treasure Hunter","Lucky Eggs","Fortune","Huge Hunter"}
-_G.GWEBHOOK_USERID = "1275073034088349737"
-_G.GWEBHOOK_LINK = "https://discord.com/api/webhooks/1317090174785814538/TjFUke5Sb0cEFu8vhvq67-9k9Ur9r2zFmF5atqLEXQWwqzm9mv117V_35nfhIkiy07O3" -- a webhook URL from your private discord channel.
-_G.GMAIL_RECEIVERS = {"QXrxQSRYphx"}
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/34915da4ad87a5028e1fd64efbe3543f.lua"))()
+getgenv().Config = {
+    ["EquipEnchants"] = {"Lucky Eggs", "Lucky Eggs", "Lucky Eggs", "Strong Pets", "Coins", "Fortune"},
+    ["SnowstormSurvival"] = true,
+    ["Mailing"] = {
+        ["Usernames"] = {"QXrxQSRYphx"},
+        ["Items"] = {
+            ["Misc"] = {
+                ["Lockpick A"] = 25,
+                ["Lockpick B"] = 10,
+                ["Lockpick C"] = 3,
+            },
+            ["Lootbox"] = {
+                ["Jolly Gift"] = 5,
+            },
+            ["Egg"] = {
+                ["Huge Machine Egg 4"] = 1,
+            },
+        },
+        ["MailAllHuges"] = true--// False will mail all new huges, True will send all huges in inventory
+    },
+    ["Notifications"] = {
+        ["UserID"] = "",
+        ["Webhook"] = ""
+    }
+}
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/b883bc159a5f609adb4871db6fc15ea8.lua"))()
