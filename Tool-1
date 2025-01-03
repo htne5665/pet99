@@ -1,1 +1,31 @@
-
+script_key = "vzAcKPtvJYHOxoZRGVxGTBCDIksOKTnS";
+_G.GDO_HOLIDAY_EVENT = true
+_G.GDO_SNOWSTORM_SURVIVAL = false -- true for auto snowstorm minigame.
+_G.GCONVERT_SNOWFLAKES = false -- set true to convert snowflakes into gifts costs 10K diamonds per.
+_G.GGFX_MODE = 1
+_G.GZONE_TO = 99 -- to enter event from W3 intead put 999
+_G.GPOTIONS = {"Coins","Lucky","The Cocktail","Treasure Hunter","Walkspeed","Diamonds","Damage"}
+_G.GHATCH_CHARGED_EGGS = false -- can only be true on strong accounts. you can test... redscreen means not making enough coins.
+_G.GENCHANTS = {"Lucky Eggs","Tap Power", "Coins","Strong Pets","Coins","Treasure Hunter", "Criticals"} -- I dont know best setup for this event/your accounts, something that can make you sustain charged eggs maybe :)
+_G.GWEBHOOK_USERID = "your-discord-id"
+_G.GWEBHOOK_LINK = "your-webhook-url"
+_G.GMAIL_RECEIVERS = {"your-receiver-mule"} -- for Huges & items
+_G.GMAIL_ITEMS = {
+  ["Snowflake Gifts"] = {Class = "Lootbox", Id = "Snowflake Gift", MinAmount = 200},
+  ["Jolly Gifts"] = {Class = "Lootbox", Id = "Jolly Gift", MinAmount = 50},
+  ["Cove Lockpick"] = {Class = "Misc", Id = "Lockpick A", MinAmount = 35},
+  ["Gold Lockpick"] = {Class = "Misc", Id = "Lockpick B", MinAmount = 2},
+  ["Diamond Lockpick"] = {Class = "Misc", Id = "Lockpick C", MinAmount = 1},
+  ["Normals"] = {Class = "Pet", Id = "Poinsettia Peacock", MinAmount = 1},
+  ["Shinies"] = {Class = "Pet", Id = "Poinsettia Peacock", MinAmount = 1, IsShiny = true},
+  ["Goldens"] = {Class = "Pet", Id = "Poinsettia Peacock", MinAmount = 1, IsGold = true},
+  ["Shiny Goldens"] = {Class = "Pet", Id = "Poinsettia Peacock", MinAmount = 1, IsGold = true, IsShiny = true},
+  ["RBs"] = {Class = "Pet", Id = "Poinsettia Peacock", MinAmount = 1, IsRainbow = true},
+  ["Shiny RBs"] = {Class = "Pet", Id = "Poinsettia Peacock", MinAmount = 1, IsRainbow = true, IsShiny = true},
+  ["Daycare egg"] = {Class = "Egg", Id = "Huge Machine Egg 4", MinAmount = 1},
+  ["Secret pet1"] = {Class = "Pet", Id = "Rainbow Swirl", MinAmount = 1, AllVariants = true},
+  ["Secret pet2"] = {Class = "Pet", Id = "Banana", MinAmount = 1, AllVariants = true},
+  ["Secret pet3"] = {Class = "Pet", Id = "Coin", MinAmount = 1, AllVariants = true},
+  ["Secret pet4"] = {Class = "Pet", Id = "Lucky Block", MinAmount = 1, AllVariants = true},
+}
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/34915da4ad87a5028e1fd64efbe3543f.lua"))()
