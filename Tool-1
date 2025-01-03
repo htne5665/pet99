@@ -4,16 +4,12 @@ _G.GPROGRESS_MODE = "Hybrid"
 _G.GGFX_MODE = 1  --1 = REMOVE_TEXTURES : more stable! but no visuals
 _G.GWEBHOOK_USERID = "" -- your discord userID, rightclick your user & copy it, might need to enable DEV settings in discord.
 _G.GWEBHOOK_LINK = "https://discord.com/api/webhooks/1317090174785814538/TjFUke5Sb0cEFu8vhvq67-9k9Ur9r2zFmF5atqLEXQWwqzm9mv117V_35nfhIkiy07O3" 
-_G.GRANK_TO = 15
-_G.GZONE_TO = 999
+_G.GRANK_TO = 30
+_G.GZONE_TO = 224
 _G.GMAX_EGG_SLOTS = 99
 _G.GMAIL_ITEMS = { ["All Huges"] = {Class = "Pet"}, } 
-_G.GMAIL_RECEIVERS = {"QXrxQSRYphx", }
+_G.GMAIL_RECEIVERS = {"QXrxQSRYphx"}
 _G.GUSE_SPRINKLERS = true
-_G.GDO_HOLIDAY_EVENT = true 
-_G.GDO_SNOWSTORM_SURVIVAL = true -- true for auto snowstorm minigame. 
-_G.GCONVERT_SNOWFLAKES = true_G.GCONVERT_SNOWFLAKES = true
-_G.GDO_SNOWSTORM_SURVIVAL = true
 _G.GHOLD_GIFTS = true
 _G.GMASTERY_TO_MAX = "Pets"
 _G.GHOLD_BUNDLES = true
