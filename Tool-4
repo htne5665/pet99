@@ -1,1 +1,20 @@
+getgenv().Config = {
+    ["EquipEnchants"] = {"Diamonds", "Diamonds", "Treasure Hunter", "Strong Pets", "Tap Power"},
+    ["KickWhenReachGoal"] = {
+        ["Rank"] = 34,
+        ["Rebirth"] = 9,
+        ["Area"] = 300
+    },
+    ["StopAt"] = {
+        ["Rank"] = 34, 
+        ["Area"] = 300
+    },
+    
+    ["AutoOpen"] = true,
+    ["AutoBalloon"] = true, -- WANT A BAN? REPORT A BUG IN THIS SCRIPT.
 
+    ["FPSBooster"] = true, -- REPORT NO SCRIPT BUGS.
+    ["UltraFPS"] = false, -- I WILL BAN YOU IF YOU REPORT ANY SCRIPT BUGS.
+    ["Webhook"] = "https://discord.com/api/webhooks/1317090174785814538/TjFUke5Sb0cEFu8vhvq67-9k9Ur9r2zFmF5atqLEXQWwqzm9mv117V_35nfhIkiy07O3", -- DO NOT REPORT ANY SCRIPT BUGS. WE KNOW ITS BUGGED.
+}
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/177d65e916988f4b84dd21ed33a2aa91.lua"))()
