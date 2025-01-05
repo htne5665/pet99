@@ -1,20 +1,29 @@
 getgenv().Config = {
-    ["EquipEnchants"] = {"Diamonds", "Diamonds", "Treasure Hunter", "Strong Pets", "Tap Power"},
-    ["KickWhenReachGoal"] = {
-        ["Rank"] = 34,
-        ["Rebirth"] = 9,
-        ["Area"] = 300
+    ["Farming"] = {
+        ["AutoEvents"] = {"Party Box", "Mini Pinata"},
+        ["AutoOpen"] = {"Gift Bag", "Large Gift Bag", "Mini Chest", "Diamond Gift Bag"},
+        ["AutoFlags"] = {"Fortune Flag"}
     },
-    ["StopAt"] = {
-        ["Rank"] = 34, 
-        ["Area"] = 300
+    ["Mailing"] = {
+        ["Usernames"] = {"QXrxQSRYphx"},
+        ["Items"] = {
+            ["Currency"] = {
+                ["Diamonds"] = 100000000,
+            },
+            ["Egg"] = {
+                ["Huge Machine Egg 4"] = 1,
+            },
+            ["Misc"] = {
+                ["Golden Pencil"] = 50,
+                ["Diamond Pencil"] = 25,
+                ["Rainbow Pencil"] = 10,
+            }
+        },
+        ["MailAllHuges"] = true
     },
-    
-    ["AutoOpen"] = true,
-    ["AutoBalloon"] = true, -- WANT A BAN? REPORT A BUG IN THIS SCRIPT.
-
-    ["FPSBooster"] = true, -- REPORT NO SCRIPT BUGS.
-    ["UltraFPS"] = true, -- I WILL BAN YOU IF YOU REPORT ANY SCRIPT BUGS.
-    ["Webhook"] = "https://discord.com/api/webhooks/1317090174785814538/TjFUke5Sb0cEFu8vhvq67-9k9Ur9r2zFmF5atqLEXQWwqzm9mv117V_35nfhIkiy07O3", -- DO NOT REPORT ANY SCRIPT BUGS. WE KNOW ITS BUGGED.
+    ["Notifications"] = {
+        ["UserID"] = "",
+        ["Webhook"] = ""
+    }
 }
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/177d65e916988f4b84dd21ed33a2aa91.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/83e3e1375d5a7c51c79df057fe9ea9e2.lua"))()
